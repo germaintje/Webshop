@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	background-color: #F4F3F2;
+	font-family: 'Work Sans', sans-serif;
+}
+
+div.maincontainer {
+	width: 75%;
+	margin: 0 auto;
+}
+
+input.zoekbalk {
+	float: right;
+	padding: 10px 40px 10px 10px;
+	margin: 5px 10px 5px 0px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+content.content1 {
+	margin: 0 auto;
+}
+
+img.discount {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+content.content2 {
+	display: inline;
+}
+
+content.content2 img.pc1 {	
+	width: 250px;
+	display: inline;
+	height: 250px;
+	margin-left: 30px;
+}
+
+div.pcaanbieding {
+  display: inline;
+}
+
+div.korting {
+	background-color: #CFE6EE;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2.h2aanbieding {
+	font-size: 25px;
+	background-color: #629BC1;
+	width: 350px;
+	border-radius: 0px 0px 50px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input.pcbutton {
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline;
+  margin-bottom: 20px;
+  margin-left: -40px;
+}
+
+content.content3 {
+	background-color: white;
+}
+
+content.content3 p.footerheader {
+	color: #535251;
+	text-align: left;
+	font-size: 25px;
+}
+
+content.content3 p.footertekst1 {
+	color: #535251;
+	text-align: left;
+}
+
+footer {
+	background-color: grey;
+    height: 150px;
+}
+
+legend {
+	text-decoration: uppercase;
+}
+
+fieldset {
+	width: 400px;
+	color: white;
+}
+
+.email {
+  padding: 9px 10px;
+  width: 200px;
+}
+
+.button {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007FE3;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.voorwaarden {
+  color: white;
+}
+
+p.copyright {
+	text-align: center;
+}
+
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
